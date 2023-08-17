@@ -1,0 +1,54 @@
+.orderBox
+{
+    width:100%;
+    margin: 0 0;
+    padding: 0, 0;
+    overflow-x: auto;
+    border-bottom:1px solid gray;
+    border-right:1px solid gray;
+    position: relative;
+}
+.orderBox table td, th
+{
+    padding:5px;
+    
+}
+
+.orderBox .productImg
+{
+    margin:auto;
+}
+.contentPosition
+{
+    position: absolute;
+    top:50%
+}
+input[type="number"], [type="text"]
+{
+    width:80px;
+ 
+}
+input[type="text"]
+{
+    width:60px;
+    text-align: right;
+    background:none;
+    border:none; 
+    overflow:auto;
+    outline:none;
+}
+
+
+@media only screen and (max-width: 400px)
+{
+    .orderBox
+    {
+        margin:0 0;
+        border-right:none;
+    }
+    .contentPosition
+    {
+        position:relative;
+        top:0;
+    }
+}

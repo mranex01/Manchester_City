@@ -1,0 +1,104 @@
+.addProductBtn
+{
+    position: absolute;
+
+    right:0%;
+    background-color: rgb(18, 204, 211);
+    border: 1px solid rgb(18, 204, 211);
+    color:black;
+
+    padding: 10px;
+
+    cursor: pointer;
+}  
+
+.addProductBtn:hover
+{
+    background-color: rgba(18, 204, 211, 0.63);
+}
+
+
+
+/*       ****************           Add Product.php        **************     */
+
+.addContainer
+{
+    border: 1px solid black;
+    margin:50px auto;
+    width: 70%;
+    padding:15px;
+}
+
+
+
+@media screen and (max-width: 992px)
+{
+    .addContainer
+    {
+        margin: 20px auto; 
+        width: 99%;
+    }
+}
+
+
+/* Seller Toggle Button */
+
+.productToggle .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+.productToggle .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+.productToggle .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .productToggle .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .productToggle input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  .productToggle input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  .productToggle input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .productToggle .slider.round {
+    border-radius: 34px;
+  }
+  
+  .productToggle .slider.round:before {
+    border-radius: 50%;
+  }

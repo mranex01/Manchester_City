@@ -1,0 +1,20 @@
+.newOffers
+{
+     
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+ 
+    background: rgb(36, 101, 221);
+    border: 0.6px solid rgb(36, 101, 221);
+    color:white;
+ 
+}
+ 
+.newOffers:hover
+{
+    background: rgba(36, 101, 221, 0.685);
+    text-decoration: none;
+    color:white;
+}

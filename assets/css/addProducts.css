@@ -1,0 +1,71 @@
+.backBar
+{
+    width:100%; 
+    background: #5995fd; 
+    color:white;
+    text-align: left;
+}
+
+.backBtn
+{
+    cursor:pointer;
+    width: fit-content;
+    padding:10px; 
+    
+}
+
+.backBtn:hover
+{
+    background:white;
+    color:#5995fd;
+}
+
+.addContainer
+{
+    font-size: 2.5vh;
+    color:rgb(85, 238, 212);
+    padding:20px;
+    border-radius: 10px;
+    background-color: rgba(9, 81, 139, 0.993);
+}
+
+input[type="text"], input[type="number"], select
+{
+    padding:10px;
+    outline:none;
+    border:none;
+    border-bottom: 1px solid rgb(85, 238, 212);
+    background: none;
+    width: 100%;
+    color:white;
+}
+select
+{
+    color:cyan;
+}
+textarea
+{
+    color: white;
+    width: 100%;
+    outline:none;
+    border:none;
+    border-bottom: 1px solid rgb(85, 238, 212);
+    background: none;
+}
+
+input[type="submit"]
+{
+    border:1px solid rgb(85, 238, 212);
+    outline:none;
+    padding:10px;
+    cursor:pointer;
+    background: rgb(85, 238, 212);
+    color: black;
+}
+input[type="submit"]:hover
+{
+    color:white;
+    background: none;
+    border:1px solid rgb(85, 238, 212);
+}
+

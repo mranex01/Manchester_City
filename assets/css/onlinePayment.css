@@ -1,0 +1,64 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.onlinePayment
+{
+     
+    position:relative;
+    display: block;
+    border: 2px solid gray;
+    text-align: center;
+    padding:20px;
+    border-radius: 10px;
+}
+.onlinePayment .paymentHead
+{
+    width:100%;
+    padding:20px;
+}
+ 
+.onlinePayment .symbol
+{
+    text-align: left;
+    display:inline-block;
+    position: absolute;
+    right: 0;
+     
+    display: inline-block;
+}
+.onlinePayment .paymentHead .paymentTitle
+{
+    width:100%;
+    display: inline-block;
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.inputFields input
+{
+    padding:10px;
+    margin-top: 10px;
+    border:none;
+    border-bottom:1px solid gray;
+    outline:none;
+}
+
+.endBtn
+{
+    padding:10px;
+}
+.endBtn input
+{
+    padding:10px;
+    outline:none;
+    cursor:pointer;
+}

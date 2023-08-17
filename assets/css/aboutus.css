@@ -1,0 +1,153 @@
+ 
+
+.aboutus
+{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(89, 186, 231, 0.192);
+    padding:20px;
+    margin-top: 20px;
+}
+
+.aboutus h2
+{
+    color:#5995fd;
+    padding:20px;
+}
+
+.aboutus hr
+{
+    width:250px;
+}
+
+.aboutus p
+{
+    font-family: sans-serif;
+    opacity: 80%;
+}
+
+.aboutus a
+{
+    text-decoration: none;
+    display:block;
+    border: 2px solid #5995fd;
+    width: 200px;
+    padding:10px;
+    border-radius: 10px;
+    margin: 0;
+    color: #5995fd;
+     
+}
+
+.aboutus a:hover
+{
+    border-color:blue;
+    color:white;
+    background-color: #5995fd;
+}
+
+.aboutus .vertical-line{
+    height: 30px;
+    width: 0.5px;
+    background: #101311;
+    margin: 0 auto;
+}
+
+#aboutContent
+{
+    position: fixed;
+    margin:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: white;
+    opacity: 70%;
+    display: none;
+
+}
+
+#serviceCard
+{
+    transition: transform 0.25s ease;
+    display: none;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(47, 158, 192);
+    opacity: 100%;
+    z-index: 9999;
+}
+
+#contactCard
+{
+    transition: transform 0.25s ease;
+    display: none;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(47, 158, 192);
+    opacity: 100%;
+    z-index: 9999;
+}
+
+#aboutCard 
+{
+    transition: transform 0.25s ease;
+    display: none;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(47, 158, 192);
+    opacity: 100%;
+    z-index: 9999;
+}
+
+.aboutCardClose
+{
+    position: absolute;
+    top:0;
+    right:0;
+    padding:5px;
+    background:white;
+    color:red;
+    cursor: pointer;
+}
+.aboutCardClose:hover
+{
+    background:red;
+    color:white;
+}
+.aboutCardClose:active
+{
+    background-color: rgba(255, 0, 0, 0.685);
+}
+
+
+
+@media(max-width: 992px)
+{
+    #aboutCard  
+    {
+        width:100%;
+    }
+    #serviceCard
+    {
+        width:100%;
+    }
+    #contactCard
+    {
+        width:100%;
+    }
+
+}
+
+
+    

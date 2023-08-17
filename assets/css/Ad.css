@@ -1,0 +1,64 @@
+
+.adContent input[type="file"]
+{
+    padding:10px;
+    border:none;
+    background:cyan;
+    outline:none;
+}
+.adContent input[type="submit"]
+{
+    padding:10px;
+    border:none;
+    background:rgb(255, 255, 255);
+    outline:none;
+    cursor: pointer;
+    border: 1px solid black;
+    margin-top:10px;
+}
+.adContent input[type="submit"]:hover
+{
+    color:white;
+    background:black;   
+}
+
+.ad
+{
+    width:100%;
+    padding:20px;
+}
+
+.ad .adImg
+{
+    position: relative;
+    border-bottom: 1px solid black;
+    padding:10px;
+    background: rgba(128, 128, 128, 0.274);
+}
+.ad .adImg .img-fluid
+{
+    margin-left: auto;
+    width: 50%;
+    position: relative;
+}
+.ad .adImg .closeBtn
+{
+    position: absolute;
+    top:0;
+    width: fit-content;
+    cursor: pointer;
+    right:5%;
+    color:red;
+    background: white;
+    border:1px solid black;
+    padding:0 15px;
+}
+.ad .adImg .closeBtn:hover
+{
+    background: red;
+    color:white;
+}
+.ad .adImg .closeBtn:active
+{
+    background: rgba(255, 0, 0, 0.233);
+}
